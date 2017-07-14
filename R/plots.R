@@ -651,7 +651,7 @@ plot_bootstrap <- function(obj,
   units = 'est_counts',
   color_by = setdiff(colnames(obj$sample_to_covariates), 'sample'),
   x_axis_angle = 50,
-  divide_groups = TRUE
+  divide_groups = FALSE
   ) {
   units <- check_quant_mode(obj, units)
 
